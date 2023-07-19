@@ -9,7 +9,7 @@ The gen.morphol.disparity function imposes no constraint on the type of models u
 An example illustrating the use of gen.morphol.disparity is provide below using the plethodon dataset in the geomorph package in R.
 
 ```
-source("<PATH>\\gen.morphol.disparity.R")
+source("<PATH>\\gen.morphol.disparity.R") # Modify path as appropriate.
 library(geomorph)
 data(plethodon)
 Y.gpa<-gpagen(plethodon$land, print.progress = FALSE) #GPA-alignment
