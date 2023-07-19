@@ -1,5 +1,5 @@
-# gen.morphol.disparity
-Estimating and comparing Procrustes variance for linearly and non-linearly modelled shape data
+# gen.morphol.disparity: Estimating and comparing Procrustes variance for non-linearly modelled shape data
+
 The morphol.disparity function in the geomorph package in R quantifies morphological disparity through Procrustes variance and compares the groups in a pairwise manner through permutation tests. This function assumes that shape is modelled linearly and it requires a linear model formula as its first argument.
 
 In the present study, shape development was modelled non-linearly with age, which impeded the use of morphol.disparity. We therefore developed a statistical routine named gen.morphol.disparity to address this issue by generalising the morphol.disparity function. The key difference from the morphol.disparity function is that instead of requiring an argument specifying a linear formula, gen.morphol.disparity requires input of a matrix of observed shape data and another matrix of model predicted shape. Procrustes variance is then estimated per group based on residuals from the two input matrices. The sum of squared residuals divided by group size yields estimates of Procrustes variance.
