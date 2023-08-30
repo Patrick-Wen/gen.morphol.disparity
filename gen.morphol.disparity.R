@@ -10,7 +10,7 @@
 # estimated from linear or non-linear regression models.
 # @groups A factor specifying the groups among which pairwise comparisons are to
 # be made. This is equivalent to the "groups" argument in morphol.disparity. But
-# groups here is specified without the "~"" sign.
+# groups here is specified without the "~" sign.
 # @iter The number of iterations for obtaining permutation p values.
 # @print.progress Whether to show progress bar.
 
